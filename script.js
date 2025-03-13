@@ -9,7 +9,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     if (name && message) {
         // Formata a mensagem para o WhatsApp
         const whatsappMessage = encodeURIComponent(`${name}: ${message}`);
-        const phoneNumber = '+5522997407901'; // Número do WhatsApp
+        const phoneNumber = '+5522997535807'; // Número do WhatsApp
 
         // Cria o link para o WhatsApp
         const whatsappLink = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
